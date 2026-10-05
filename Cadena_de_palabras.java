@@ -9,14 +9,21 @@ public class Cadena_de_palabras {
 
 	Scanner input = new Scanner(System.in);
 	
-	System.out.print("Introduce una palabra");
-	String texto = input.nextLine();
+	System.out.print("Introduce una frase");
+	String frase= input.nextLine(); //Hola que tal
 	
-	String textosinespacio = texto.replace(" ", " ");
 	
-	System.out.println("Texto sin espacios : " + textosinespacio);
+	frase = frase.replace(" ", "");
+	
+	System.out.println(frase);
 			
 	input.close();
+	
+	 
+	
+	
+	
+	
 	
 	
 	
